@@ -2,12 +2,15 @@ package main
 
 import "fmt"
 
-func Greeting(){
-fmt.Println("Greetings")
+func Whatrthetask(listofthingstodo[]string){
+	for _,v := range listofthingstodo{
+		fmt.Printf("%s\n",v)
+	}
 }
 
 func main() {
-	Greeting()
+	task := []string{"Go Home","Eat"}
+	Whatrthetask(task)
 }
 // Practising Git and GitHub
 
