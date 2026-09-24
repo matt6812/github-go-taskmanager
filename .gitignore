@@ -9,3 +9,11 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 .idea/
+# Go build output
+/bin/
+
+# Environment variables
+.env
+
+# Logs
+*.log
