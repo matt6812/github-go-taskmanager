@@ -2,7 +2,11 @@ package main
 
 import "fmt"
 
+func Greeting(){
+fmt.Println("Greetings")
+}
+
 func main() {
-	fmt.Println("Task Manager")
+	Greeting()
 }
 // Practising Git and GitHub
