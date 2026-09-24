@@ -10,3 +10,5 @@ func main() {
 	Greeting()
 }
 // Practising Git and GitHub
+
+//testing school acounnt linking
